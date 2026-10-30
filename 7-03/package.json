@@ -1,0 +1,16 @@
+{
+  "name": "netology-7-03-jest-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netology homework 7.3: Jest coverage and Playwright authorization tests",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "jest": "^29.7.0"
+  }
+}
